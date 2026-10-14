@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PHP 5.6 - Xdebug 2",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "pathMappings": {
+                "/var/www/html": "${workspaceFolder}/src"
+            },
+            "log": true
+        },
+        {
+            "name": "PHP 7.4 - Xdebug 3",
+            "type": "php",
+            "request": "launch",
+            "port": 9003,
+            "pathMappings": {
+                "/var/www/html": "${workspaceFolder}/src"
+            },
+            "log": true
+        },
+        {
+            "name": "PHP 8.5 - Xdebug 3",
+            "type": "php",
+            "request": "launch",
+            "port": 9005,
+            "pathMappings": {
+                "/var/www/html": "${workspaceFolder}/src"
+            },
+            "log": true
+        }
+    ]
+}
